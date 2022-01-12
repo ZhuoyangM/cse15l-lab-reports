@@ -19,4 +19,4 @@ a code block
 * CSE12
 * CSE15L
 ---
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theguardian.com%2Flifeandstyle%2F2020%2Fsep%2F05%2Fwhat-cats-mean-by-miaow-japans-pet-guru-knows-just-what-your-feline-friend-wants&psig=AOvVaw0efsqD05ktsweXQD-T3dHE&ust=1642117563781000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPC-n-KyrfUCFQAAAAAdAAAAABAI)
+![Image](https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=49ed3252c0b2ffb49cf8b508892e452d)
