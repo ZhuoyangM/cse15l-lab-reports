@@ -1,5 +1,5 @@
 Lab report
 hhhhhh
-![Image](http://url/Screen Shot 2022-01-12 at 1.51.15 PM.png
+![Image](file:///Users/zhuoyangmeng/Desktop/Screen%20Shot%202022-01-12%20at%201.51.15%20PM.png)
 
 klll
