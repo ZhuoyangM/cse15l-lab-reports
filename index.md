@@ -1,6 +1,5 @@
-**HI EVERYONE!**
-
->[Lab Report 1](lab-report-1-week-2.html)
+**HI EVERYONE!**\
+Here's a list of my lab reports
 >[Lab Report 1](https://ZhuoyangM.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 ---
