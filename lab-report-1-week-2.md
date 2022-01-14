@@ -43,12 +43,22 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 
 * Finally I compiled and ran the file on remote server and saw the following output ![Image](RemoteRun.png)
 
-## Part 6: Set SSH Key
+## Part 5: Set SSH Key
 * I ran the following commands to set up an SSH Key ![Image](SetKey.png)
 
 * After setting the ssh key, I was able to log in remote server without password ![Image](LogWo.png)
 
-## Part 7: Optimizing Remote Running
+## Part 6: Optimizing Remote Running
+* First I made some local edits to WhereAmI.java on VS code ![Image](Edits.png)
+
+* Then I came out the following way to copy the file to remote server and run on it, basically with scp commands, quotes, and running multiple commands on the same line     ![Image](Optimizaion.png)
+
+
+
+
+
+
+(Finished)
 
 
 
@@ -61,12 +71,4 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 
 
 
-
-
-
-
-
-
-
-![Image](Screen%20Shot%202022-01-12%20at%201.51.15%20PM.png)
 
