@@ -7,7 +7,7 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 
 
 ## Part 1: Install Visual Studio Code
-* Download Visual Studio Code at the website [VSCode Link](https://code.visualstudio.com/)
+* Download [Visual Studio Code](https://code.visualstudio.com/)
 
 * Choose the version for your operating system (Mine is Mac) ![Image](Installation.png)
 
