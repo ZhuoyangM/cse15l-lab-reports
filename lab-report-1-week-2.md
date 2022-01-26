@@ -51,7 +51,14 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 ## Part 6: Optimizing Remote Running
 * First I made some local edits to WhereAmI.java on VS code ![Image](Edits.png)
 
-* Then I came out the following way to copy the file to remote server and run on it, basically with scp commands, quotes, and running multiple commands on the same line     ![Image](Optimizaion.png)
+* Then I came out the following way to copy the file to remote server and run on it: 
+  1. Use up-arrow key to get me to the command `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/` and then run it , which takes me 4 keystrokes in total; 
+  2. Use up-arrow key to get me to the command `ssh cs15lwi22@ieng6.ucsd.edu` , which takes me 2 keystrokes; 
+  3. Copy-paste the following command: `javac WhereAmI.java;java WhereAmI` to the end of the previous  command,   which takes me 2 keystrokes;
+  4. Typing two `"` takes me 2 keystrokes;
+  5. Click on return takes 1 extra keystroke. 
+
+* So I have 11 keystrokes in total, way better than just typing one command per time and run them sequentially. Following are my commands.![Image](Optimizaion.png)
 
 
 
