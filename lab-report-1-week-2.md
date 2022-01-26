@@ -7,7 +7,7 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 
 
 ## Part 1: Install Visual Studio Code
-* Download Visual Studio Code at the website   https://code.visualstudio.com/
+* Download Visual Studio Code at the website [VSCode Link](https://code.visualstudio.com/)
 
 * Choose the version for your operating system (Mine is Mac) ![Image](Installation.png)
 
@@ -52,7 +52,7 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 * First I made some local edits to WhereAmI.java on VS code ![Image](Edits.png)
 
 * Then I came out the following way to copy the file to remote server and run on it: 
-  1. Use up-arrow key to get me to the command `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/` and then run it , which takes me 4 keystrokes in total; 
+  1. Use up-arrow key to get me to the command `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/` and then run it , which takes me 4 keystrokes; 
   2. Use up-arrow key to get me to the command `ssh cs15lwi22@ieng6.ucsd.edu` , which takes me 2 keystrokes; 
   3. Copy-paste the following command: `javac WhereAmI.java;java WhereAmI` to the end of the previous  command,   which takes me 2 keystrokes;
   4. Typing two `"` takes me 2 keystrokes;
