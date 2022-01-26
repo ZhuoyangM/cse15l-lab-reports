@@ -58,7 +58,7 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
   4. Typing two `"` takes me 2 keystrokes;
   5. Clicking on return takes 1 extra keystroke. 
 
-* So I have 11 keystrokes in total, way better than just typing one command per time and run them sequentially. Following are my commands.![Image](Optimizaion.png)
+* Now I have 11 keystrokes in total. Originally, I had to type four commands and run them one by one, which took me more than 50 keystrokes. By using up-arrows and copy-pastes and combining commands, I can save a lot of keystrokes. Following are my optimized commands.![Image](Optimizaion.png)
 
 
 
