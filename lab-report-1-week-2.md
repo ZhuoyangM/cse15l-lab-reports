@@ -9,9 +9,9 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 ## Part 1: Install Visual Studio Code
 * Download [Visual Studio Code](https://code.visualstudio.com/)
 
-* Choose the version for your operating system (Mine is Mac) ![Image](Installation.png)
+* Choose the version for your operating system (Mine is Mac) ![Image](screen-shots-report1/Installation.png)
 
-* After installation, VS code interface looked like this ![Image](VSCode.png)
+* After installation, VS code interface looked like this ![Image](screen-shots-report1/VSCode.png)
 
 
 ## Part 2: Remotely Connecting
@@ -19,7 +19,7 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 
 * Then I typed in the password of my course account
 
-* After logging in, I saw the following output ![Image](Remote.png)
+* After logging in, I saw the following output ![Image](screen-shots-report1/Remote.png)
 
 
 ## Part 3: Run Some Commands
@@ -31,25 +31,25 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
 
 * I ran `ls` to confirm that TestFile.java was sucessfully copied
 
-* Finally I ran `cd ..` to go back to home directory ![Image](TryCommands.png) 
+* Finally I ran `cd ..` to go back to home directory ![Image](screen-shots-report1/TryCommands.png) 
 
 
 ## Part 4: Moving Files With Scp
-* First I wrote WhereAmI.java File in VS Code ![Image](WhereAmI.png)
+* First I wrote WhereAmI.java File in VS Code ![Image](screen-shots-report1/WhereAmI.png)
 
-* Then I compiled and ran the file on VS Code and saw the following output ![Image](LocalRun.png)
+* Then I compiled and ran the file on VS Code and saw the following output ![Image](screen-shots-report1/LocalRun.png)
 
 * Next I ran `scp WhereAmI.java cs15lwi22ags@ieng6.ucsd.edu:~/` to copy this file to the remote server
 
-* Finally I compiled and ran the file on remote server and saw the following output ![Image](RemoteRun.png)
+* Finally I compiled and ran the file on remote server and saw the following output ![Image](screen-shots-report1/RemoteRun.png)
 
 ## Part 5: Set SSH Key
-* I ran the following commands to set up an SSH Key ![Image](SetKey.png)
+* I ran the following commands to set up an SSH Key ![Image](screen-shots-report1/SetKey.png)
 
-* After setting the ssh key, I was able to log in remote server without password ![Image](LogWo.png)
+* After setting the ssh key, I was able to log in remote server without password ![Image](screen-shots-report1/LogWo.png)
 
 ## Part 6: Optimizing Remote Running
-* First I made some local edits to WhereAmI.java on VS code ![Image](Edits.png)
+* First I made some local edits to WhereAmI.java on VS code ![Image](screen-shots-report1/Edits.png)
 
 * Then I came out the following way to copy the file to remote server and run on it: 
   1. Use up-arrow key to get me to the command `scp WhereAmI.java cs15lwi22ags@ieng6.ucsd.edu:~/` and then run it , which takes me 4 keystrokes; 
@@ -58,7 +58,7 @@ Basically I set my computer up for remote access to the CSE lab computers and pr
   4. Typing two `"` takes me 2 keystrokes;
   5. Clicking on return takes 1 extra keystroke. 
 
-* Now I have 11 keystrokes in total. Originally, I had to type four commands and run them one by one, which took me more than 50 keystrokes. By using up-arrows and copy-pastes and combining commands, I can save a lot of keystrokes. Following are my optimized commands.![Image](Optimizaion.png)
+* Now I have 11 keystrokes in total. Originally, I had to type four commands and run them one by one, which took me more than 50 keystrokes. By using up-arrows and copy-pastes and combining commands, I can save a lot of keystrokes. Following are my optimized commands.![Image](screen-shots-report1/Optimizaion.png)
 
 
 
