@@ -5,5 +5,6 @@ class WhereAmI {
       System.out.println(System.getProperty("user.home"));
       System.out.println(System.getProperty("user.dir"));
       System.out.println("Hello, I'm Alex Meng");
+      System.out.println("Adding a line");
     }
   }
