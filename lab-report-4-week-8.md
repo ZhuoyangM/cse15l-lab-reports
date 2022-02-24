@@ -1,5 +1,13 @@
 # Lab-Report-4-Week-8
 
+
+## Links
+[Link to my repo](https://github.com/ZhuoyangM/markdown-parse)\
+[Link to the repo I reviewed](https://github.com/kathyychenn/markdown-parse)
+
+
+
+
 ## Test Snippet1
 - Expected Output
 ![snippet1](screen-shots-report4/Snippet1Expected.png)
