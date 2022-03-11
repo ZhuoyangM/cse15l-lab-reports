@@ -1,38 +1,57 @@
 # Lab-Report-5-Week-10
 
 ## Find Different Results
-- First I use `diff` command to find the tests with different results.
+- First I use `diff` command to find the tests with different outputs, and I choose 2 pairs of different outputs as marked in the picture below. 
 
 ![diff](screen-shots-report5/diff.png)
 
-- Then I choose the following 2 differences
+- Next I use `vim` to check those 2 lines referred in above picture in my results.txt, and I find these 2 tests are, respectively, test-files/494.md and test-files/573.md.
+![my494](screen-shots-report5/my494.png)
+![my573](screen-shots-report5/my573.png)
 
-![2diffs](screen-shots-report5/2differences.png)
 
-- Next I use `vim` to check the lines referred in the above picture and find that these 2 tests are, respectively, test-files/494.md and test-files/495.md.
+## Test494
+- First I use `cat` command to check the contents of test 494.
 
-![2tests](screen-shots-report5/2tests.png)
+![Contents](screen-shots-report5/Contents.png)
 
-## Bug Analysis
-- First I use `cat` command to check the contents of test 494 and 495.
-
-![contents](screen-shots-report5/contentsoftests.png)
-
-- From the contents of the tests, I think my implementation fails both tests, and the provided implementation is correct for both. 
+- From the contents of the tests, I think both my implementation and provided implementation fail.
 
 - Actual outputs of my implementation
 
-![2tests](screen-shots-report5/2tests.png)
+![my494](screen-shots-report5/my494.png)
 
 - Actual outputs of the provided implementation
 
-![expected](screen-shots-report5/expected.png)
+![p494](screen-shots-report5/p494.png)
 
-- The expected outputs are those from the provided implementation
+- In 494.md, there's `\` before parentheses, and they shouldn't be printed, so the expected output is: `[(foo)]`
 
-- For my implementation, the buggy code is shown below. Basically, my code didn't check whether the next close parenthesis ends an url or is just part of that url. For both test 494 and 495, the links in them have urls that include close parentheses. Therefore, for either of those tests, my code just treats the first close parenthesis it finds as the end of the url, but that parenthesis is actually part of the url and should be included in output. That's where the bug comes.
+- For my implementation, the buggy code is shown below. Basically, my code doesn't differentiate between parentheses for links and parenthese characters. Specifically, it doesn't check whether there's `\` before parens. Since the url in 494.md includes parenthese characters, my implementation just treats one of them as the end of the url and thus fails.
 
-![bug](screen-shots-report5/bug.png)
+![mybug](screen-shots-report5/mybug.png)
+
+
+## Test573
+- First I use `cat` command to check the contents of test 573.
+
+![Contents](screen-shots-report5/Contents.png)
+
+- From the contents of the tests, I think my implementation is correct, and the provided implementation fails. 
+
+- Actual outputs of my implementation
+
+![my573](screen-shots-report5/my573.png)
+
+- Actual outputs of the provided implementation
+
+![p573](screen-shots-report5/p573.png)
+
+- The link in 573.md is an image link and shouldn't be included. Thus, the expected output is the output from my implementation: `[]`.
+
+- For provided implementation, it doesn't differentiate between normal link and image link, which shouldn't be added to the output. Specifically, it doesn't check if there's `!` before `[`. The url in 573.md is a image link, the provided implementation includes it in output and thus fails.
+
+![pbug](screen-shots-report5/pbug.png)
 
 
 
